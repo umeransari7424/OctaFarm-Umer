@@ -1,0 +1,270 @@
+.header{
+  background-color: #0b132b;
+    .overview{
+      
+      color: white !important;
+      font-weight: 500;
+      font-size: 20px;
+    }
+  
+}
+.hero{
+  .v{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  video{
+    width: 100%;
+
+  }
+  .launch{
+    background-color: transparent !important;
+    color: white;
+    border: 1px solid white;
+    margin-top: 15px;
+    padding: 9px 20px;
+    margin-left: 30px;
+    &:hover{
+      border-color: white !important;
+    }
+
+  }
+  h1{
+    color: white;
+  }
+  h4{
+    color: #5bc0be;
+
+  }
+  button{
+    background-color: #5bc0be !important;
+    color: black;
+    border: none;
+    padding: 9px 70px;
+  }
+}
+.invest{
+  h4{
+    color: #5bc0be;
+  }
+  h2{
+    color: white;
+    font-weight: 700;
+  }
+  h1{
+    color: white;
+  }
+  .card2{
+    padding-left: 35px!important;
+    background-color: rgb(46 125 175 / 20%);
+    color: white;
+    p{
+      font-size: 18px;
+    }
+    span{
+      color: #5bc0be;
+      font-weight: 500;
+      line-height: 0.7;
+    }
+    .seven{
+      font-size: 70px;
+      color: white;
+    }
+    .annual{
+      color: #5bc0be;
+    }
+  }
+}
+.digital{
+  img{
+    // background-color: white !important;
+    color: white !important;
+  }
+  hr{
+    color: white;
+  }
+}
+.footer{
+  background-color: #080e21;
+  color:white;
+  li{
+    color: #6d8bb0;
+  }
+  p{
+    color: #6d8bb0;
+  }
+}
+.faq{
+  background-color: #0b132b;
+  color: white;
+.asked{
+  font-size: 15px;
+  color: #6d8bb0  ;
+}
+.faq-row{
+  background-color: #1f2947 !important;
+  border-radius: 10px;
+  
+}
+.styles_faq-row-wrapper__3vA1D .styles_faq-row__2YF3c{
+  border-bottom: none;
+}
+  
+  .styles_faq-row-wrapper__3vA1D .styles_row-body__1NvUo .styles_faq-row__2YF3c {
+margin-top: 10px !important;
+}
+.styles_faq-row-wrapper__3vA1D .styles_row-body__1NvUo .styles_faq-row__2YF3c .styles_row-title__1YiiY.styles_no-tabfocus__1HmyD {
+  padding: 13px !important;
+}
+.styles_faq-row-wrapper__3vA1D .styles_row-body__1NvUo .styles_faq-row__2YF3c .styles_row-content__QOGZd .styles_row-content-text__2sgAB {
+  margin-left: 20px !important;
+  color: #6d8bb0 !important; 
+}
+.styles_faq-row-wrapper__3vA1D {
+  background-color: #0b132b !important;
+  outline: none !important;
+  border-radius: 10px !important;
+}
+}
+body{
+  background-color: #0b132b !important;
+}
+.private{
+  
+  .card{
+    background-color: rgb(46 125 175 / 20%);
+    color: white;
+    .sale{
+      color: #99fff0 !important;
+    }
+    .seven{
+      font-size: 50px;
+      font-weight: 700;
+      font-family: bold;
+    }
+    button{
+      background-color: #99fff0  !important;
+      color: black;
+      font-weight: 650;
+      border: none !important;
+      padding: 8px 30px;
+
+    }
+  }
+  .complete{
+    position: absolute;
+    display: block;
+    background-color: #5bc0be ;
+    padding: 0px 20px;
+    left: -15px;
+    top: 28px;
+    transform: rotate(-46deg)
+
+  }
+  .live{
+    position: absolute;
+    display: block;
+    background-color: red ;
+    padding: 0px 20px;
+    left: -15px;
+    top: 28px;
+    transform: rotate(-46deg)
+
+  }
+}
+.tokenallocation{
+  color: white;
+}
+.crosschain{
+  color: white;
+  h4{
+    color: #5bc0be;
+  }
+  h1{
+    font-size: 50px !important;
+    font-weight: 700;
+  }
+  span{
+    color: white;
+  }
+  .octo{
+    // margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card{
+    background-color: rgb(46 125 175 / 20%);
+    color: white;
+    border-left: 2px solid #5bc0be;
+  }
+  .octocards{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+.tokenvalue{
+  color: white;
+  .card{
+    background-color: rgb(46 125 175 / 20%);
+  }
+}
+
+
+
+
+
+@media screen and ( max-width: "600px"){
+  .tokenallocation{
+    .token{
+      display: flex;
+      flex-direction: column;
+      // align-items: flex-start;
+      justify-content: center;
+      // align-items: flex-start;
+      div{
+        margin-top: 20px;
+      }
+    }
+
+  }
+  .crosschain{
+    span{
+      color: white;
+    }
+    .octo{
+      // margin-left: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .card{
+      background-color: rgb(46 125 175 / 20%);
+      color: white;
+      border-left: 2px solid #5bc0be;
+    }
+    .binance{
+      display: flex;
+      align-items: center !important;
+      flex-direction: column;
+    }
+    img{
+      margin-top: 30px !important;
+      margin-bottom: 40px;
+    }
+    .octocards{
+      
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+  }
+}
+  

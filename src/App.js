@@ -1,23 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import Header from './Components/Layout/Header';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer from './Components/Layout/Footer';
+import Faqs from './Components/Utils/Faqs';
+import Tokenvalue from './Components/Elements/Tokenvalue';
+import Tokenallocation from './Components/Elements/Tokenallocation';
+import Private from './Components/Elements/Private';
+import Hero from './Components/Elements/Hero';
+import Invest from './Components/Elements/Invest';
+import Digital from './Components/Elements/Digital';
+import Crosschain from './Components/Elements/Crosschain';
+
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+        <Header/>
+        <Hero/>
+        <Digital/>
+        <Invest/>
+        <Crosschain/>
+        <Private/>
+        <Tokenallocation/>
+        <Tokenvalue/>
+        <Faqs/>
+        <Footer/>
+        
+      
     </div>
   );
 }
