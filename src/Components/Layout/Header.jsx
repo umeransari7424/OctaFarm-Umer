@@ -25,8 +25,9 @@ function Header() {
           id="navbarSupportedContent"
         >
           <ul className="navbar-nav mb-2 mb-lg-0">
+
             <li className="nav-item">
-              <a className="nav-link active overview" aria-current="page" href="/">
+              <a  className="nav-link active overview" aria-current="page" href="#investid">
                 Overview
               </a>
             </li>{" "}
@@ -38,19 +39,19 @@ function Header() {
             </li>
             &nbsp; &nbsp;&nbsp;
             <li className="nav-item">
-              <a className="nav-link active overview" aria-current="page" href="/">
+              <a className="nav-link active overview" aria-current="page" href="#token">
                 Tokenomics
               </a>
             </li>{" "}
             &nbsp; &nbsp;&nbsp;
             <li className="nav-item">
-              <a className="nav-link active overview" aria-current="page" href="/">
+              <a className="nav-link active overview" aria-current="page" href="#road">
                 Roadmap
               </a>
             </li>
             &nbsp; &nbsp;&nbsp;
             <li className="nav-item">
-              <a className="nav-link active overview" aria-current="page" href="/">
+              <a className="nav-link active overview" aria-current="page" href="#fq">
                 FAQs
               </a>
             </li>{" "}

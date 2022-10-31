@@ -1,4 +1,5 @@
 .header{
+  z-index: -5 !important;
   background-color: #0b132b;
     .overview{
       
@@ -9,6 +10,36 @@
   
 }
 .hero{
+
+ .heroimg{
+  overflow: hidden;
+  position: absolute;
+  width: 70%;
+  right: 0;
+
+  z-index: -1;
+ 
+ }
+ .heroimg1{
+  overflow: hidden;
+  position: absolute;
+  width: 80%;
+  top: -250px;
+  right: 0 !important;
+  z-index: -1;
+  animation: octimg 8s cubic-bezier(0.66, 0, 0, 1) 0s infinite alternate;
+ }
+ @keyframes octimg {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(5deg);
+  }
+}
+ 
+  
+  
   .v{
     display: flex;
     justify-content: center;
@@ -16,6 +47,7 @@
   }
   video{
     width: 100%;
+    z-index: 3 !important;
 
   }
   .launch{
@@ -78,8 +110,9 @@
 }
 .digital{
   img{
+    filter: brightness(0) invert(1);
     // background-color: white !important;
-    color: white !important;
+    // color: white !important;
   }
   hr{
     color: white;
@@ -128,6 +161,7 @@ margin-top: 10px !important;
 }
 }
 body{
+ 
   background-color: #0b132b !important;
 }
 .private{
@@ -174,9 +208,52 @@ body{
   }
 }
 .tokenallocation{
+  background-image: url("Media/waves.svg");
+  background-repeat: no-repeat;
+  background-position: center ;
+  
+  text{
+    fill:white !important;
+  }
+  .octf{
+    color: #5bc0be;
+  }
   color: white;
 }
 .crosschain{
+
+  .bg1{
+    background-image: url("Media/octa-leg1.svg");
+    display: flex;
+    justify-content: end;
+    background-repeat: no-repeat;
+    
+    
+  }
+  
+  .bg2{
+    background-image: url("Media/octa-leg.svg");
+    display: flex;
+    align-items: flex-end;
+    // justify-content: center;
+    margin-top: 55px;
+    background-repeat: no-repeat;
+    
+    
+  }
+  .bg3{
+    background-image: url("Media/octa-legs-3.svg");
+    display: flex;
+    align-items: flex-end;
+    // justify-content: center;
+    margin-top: 55px;
+    background-repeat: no-repeat;
+    
+    
+  }
+  
+  
+
   color: white;
   h4{
     color: #5bc0be;
@@ -202,24 +279,154 @@ body{
   }
   .octocards{
     display: flex;
-    align-items: flex-end;
+    // align-items: flex-start;
     justify-content: center;
     flex-direction: column;
   }
 }
 
 .tokenvalue{
+  p{
+    color: #5bc0be;
+  }
   color: white;
   .card{
     background-color: rgb(46 125 175 / 20%);
   }
 }
 
+.roadmap{
+  
 
+  margin-top: 250px;
+  margin-bottom: 250px;
+  .h{
+    position: relative;
+   
+    color: #5bc0be;
+    border: 2px solid ;
+    width: 100%;
+  }
+ .text{
+  position: absolute;
+  border-left: 2px solid  #5bc0be;
+  border-style: dashed ;
+
+  border-bottom: none;
+  border-top: none;
+  border-right: none;
+  color: white !important;
+  top: -140px !important;
+  right: -130px;
+  ul{
+
+    list-style: "-  " !important;
+    color: #5bc0be !important;
+  }
+
+ }
+ .text1{
+  position: absolute;
+  border-left: 2px solid  #5bc0be;
+  border-style: dashed ;
+
+
+  border-bottom: none;
+  border-top: none;
+  border-right: none;
+  color: white !important;
+  bottom: -150px;
+  right: -120px;
+  ul{
+    list-style: "-  " !important;
+    color: #5bc0be !important;
+    
+  }
+
+ }
+    
+    
+  
+  .dot{
+  
+  position: absolute;
+  height: 20px;
+  left : 100px;
+  top: -10px;
+  width: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  }
+  .dot2{
+  
+    position: absolute;
+    // background-color: #1f2947 !important;
+    height: 20px;
+    left : 330px;
+    top: -10px;
+  width: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  }
+  .dot3{
+  
+    position: absolute;
+    height: 20px;
+    left : 550px;
+    top: -10px;
+  width: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  }
+  .dot4{
+  
+    position: absolute;
+    height: 20px;
+    left : 800px;
+    top: -10px;
+  width: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  }
+  .dot5{
+  
+    position: absolute;
+    height: 20px;
+    left : 1000px;
+    top: -10px;
+  width: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  }
+  
+  .dot6{
+  
+    position: absolute;
+    height: 20px;
+    left : 1200px;
+    top: -10px;
+  width: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  }
+  
+  
+  
+}
 
 
 
 @media screen and ( max-width: "600px"){
+  .roadmap{
+    display: none!important;
+  }
+  
   .tokenallocation{
     .token{
       display: flex;
@@ -234,6 +441,7 @@ body{
 
   }
   .crosschain{
+    display: none !important;
     span{
       color: white;
     }
@@ -264,6 +472,17 @@ body{
       align-items: center;
       justify-content: center;
       flex-direction: column;
+    }
+  }
+  .footer{
+    .footer-row-2{
+      
+      div{
+        display: flex;
+      
+        margin-top: 30px !important;
+
+      }
     }
   }
 }

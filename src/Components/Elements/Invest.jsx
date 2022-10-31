@@ -2,7 +2,7 @@ import React from 'react'
 
 function Invest() {
   return (
-    <div className='invest'>
+    <div className='invest' id='investid'>
         <div className="container py-5">
             <div className="row">
                 <div className="col-md-4">

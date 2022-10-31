@@ -2,7 +2,16 @@ import React from 'react'
 
 function Hero() {
   return (
-    <div className='hero'>
+    <div className='hero position-relative ' style={{overflow:"hidden"}}>
+        <div className='heroimg1 m-4'>
+        <img className='img-fluid' src="Assets/big-oct-front.png" alt="octa " />
+        </div>
+        <div className='heroimg'>
+        <img className='img-fluid' src="Assets/big-oct-middle.png" alt="octa " />
+        </div>
+        <div className='heroimg'>
+        <img className='img-fluid' src="Assets/bgocta.png" alt="octa " />
+        </div>
         <div className="container py-5">
             <div className="row">
                 <div className="col-md-6">
@@ -22,8 +31,7 @@ function Hero() {
                     </div>
                 </div>
                 <div className="col-md-6 v">
-                    <div >
-
+                    <div>
                     <video controls src="Assets/nature.mkv"></video>
                     </div>
                 </div>

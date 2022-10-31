@@ -85,7 +85,7 @@ const config = {
 
 function Faqs() {
   return (
-    <div className="faq">
+    <div className="faq" id="fq">
       <div className="container text-start py-5">
         <div className="row pt-5">
           <div className="col-md-10 m-auto">

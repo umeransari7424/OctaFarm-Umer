@@ -40,21 +40,21 @@ function Footer() {
                 </div>
             <hr className='mt-5'/>
             </div>
-            <div className="row mt-4">
-                <div className="d-flex justify-content-between">
-                    <div>
+            <div className="row mt-4 footer-row-2">
+                
+                    <div className='col-md-4 col-12 '> 
                     <img src="Assets/octalogo.png" width={"190px"} alt="Octa logo" />
                     </div>
-                    <div>
+                    <div className='col-md-4'>
                         <p>© 2021-22 Octa Farm. All rights reserved.</p>
                     </div>
-                    <div>
+                    <div className='col-md-4 text-end'>
                     <BsGithub size={"35px"}/> &nbsp; &nbsp;
                     <AiFillTwitterCircle size={"38px"}/>  &nbsp; &nbsp;
                     <BsTelegram size={"35px"}/>&nbsp; &nbsp;
                     <AiFillInstagram size={"35px"}/>&nbsp; &nbsp;
                     </div>
-                </div>
+               
             </div>
         </div>
         
