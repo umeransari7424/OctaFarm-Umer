@@ -7,10 +7,10 @@ function Hero() {
         <img className='img-fluid' src="Assets/big-oct-front.png" alt="octa " />
         </div>
         <div className='heroimg'>
-        <img className='img-fluid' src="Assets/big-oct-middle.png" alt="octa Farm" />
+        <img className='img-fluid' src="Assets/big-oct-middle.png" alt="octa" />
         </div>
         <div className='heroimg'>
-        <img className='img-fluid' src="Assets/bgocta.png" alt="octa Farm " />
+        <img className='img-fluid' src="Assets/bgocta.png" alt="octa" />
         </div>
         <div className="container py-5">
             <div className="row">
